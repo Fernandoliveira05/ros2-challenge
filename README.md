@@ -4,7 +4,7 @@
 - A imagem abaixo te redireciona para o vídeo explicativo do projeto:
 <div align="center">
   <a href="https://www.youtube.com/watch?v=FdRqLgt-Rgo">
-    <img src="https://sharkpokerreviews.com.br/blog/wp-content/uploads/2020/07/como-jogar-blackjack-21.jpg" alt="Vídeo do Projeto ULA Completa">
+    <img src="https://external-preview.redd.it/when-will-we-see-robots-roaming-the-streets-v0-RJGaMxlF3hb9DsxQbTZHo3bI2HC0e161MwZ1opqAOBE.jpg?width=640&crop=smart&auto=webp&s=d063199d2f58575a3814ee09d8071a2030f0f5db" alt="Vídeo do Projeto ULA Completa">
   </a>
 </div>
 
