@@ -26,7 +26,6 @@ int main(int argc, char ** argv)
   rclcpp::init(argc, argv);
   auto node = std::make_shared<rclcpp::Node>("getmap_solver");
 
-  // 1) Cliente para /get_map
   auto map_client = node->create_client<cg_interfaces::srv::GetMap>("/get_map");
 
   if (!map_client->wait_for_service(5s)) {
@@ -63,7 +62,6 @@ int main(int argc, char ** argv)
   Coord start{-1, -1};
   Coord goal{-1, -1};
 
-  // 3) Preenche grid, encontra start ('r') e goal ('t')
   for (int i = 0; i < static_cast<int>(flat.size()); ++i) {
     int y = i / width;
     int x = i % width;

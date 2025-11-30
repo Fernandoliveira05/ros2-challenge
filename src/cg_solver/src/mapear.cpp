@@ -299,7 +299,7 @@ private:
 
     send_move(dir_back);
     current_ = prev;
-    dfs_stack_.pop_back();
+    x
   }
 
   // ----------------- Fase 2: BFS para achar caminho ótimo -----------------
