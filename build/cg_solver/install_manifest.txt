@@ -1,0 +1,17 @@
+/home/inteli/Documentos/culling_games/install/cg_solver/lib/cg_solver/maze_solver
+/home/inteli/Documentos/culling_games/install/cg_solver/lib/cg_solver/mapear
+/home/inteli/Documentos/culling_games/install/cg_solver/share/ament_index/resource_index/package_run_dependencies/cg_solver
+/home/inteli/Documentos/culling_games/install/cg_solver/share/ament_index/resource_index/parent_prefix_path/cg_solver
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/ament_prefix_path.sh
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/ament_prefix_path.dsv
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/path.sh
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/path.dsv
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.bash
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.sh
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.zsh
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.dsv
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/package.dsv
+/home/inteli/Documentos/culling_games/install/cg_solver/share/ament_index/resource_index/packages/cg_solver
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/cmake/cg_solverConfig.cmake
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/cmake/cg_solverConfig-version.cmake
+/home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/package.xml

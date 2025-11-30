@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/inteli/Documentos/culling_games/build/cg_solver': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/inteli/Documentos/culling_games/build/cg_solver -- -j12 -l12
+[0.079s] [ 25%] [32mBuilding CXX object CMakeFiles/mapear.dir/src/mapear.cpp.o[0m
+[0.089s] [ 75%] Built target maze_solver
+[6.256s] [100%] [32m[1mLinking CXX executable mapear[0m
+[6.523s] [100%] Built target mapear
+[6.533s] Invoked command in '/home/inteli/Documentos/culling_games/build/cg_solver' returned '0': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/inteli/Documentos/culling_games/build/cg_solver -- -j12 -l12
+[6.542s] Invoking command in '/home/inteli/Documentos/culling_games/build/cg_solver': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/inteli/Documentos/culling_games/build/cg_solver
+[6.550s] -- Install configuration: ""
+[6.553s] -- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/lib/cg_solver/maze_solver
+[6.555s] -- Set non-toolchain portion of runtime path of "/home/inteli/Documentos/culling_games/install/cg_solver/lib/cg_solver/maze_solver" to ""
+[6.555s] -- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/lib/cg_solver/mapear
+[6.559s] -- Set non-toolchain portion of runtime path of "/home/inteli/Documentos/culling_games/install/cg_solver/lib/cg_solver/mapear" to ""
+[6.559s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/ament_index/resource_index/package_run_dependencies/cg_solver
+[6.559s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/ament_index/resource_index/parent_prefix_path/cg_solver
+[6.560s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/ament_prefix_path.sh
+[6.560s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/ament_prefix_path.dsv
+[6.560s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/path.sh
+[6.560s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/path.dsv
+[6.560s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.bash
+[6.560s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.sh
+[6.560s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.zsh
+[6.561s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.dsv
+[6.561s] -- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/package.dsv
+[6.561s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/ament_index/resource_index/packages/cg_solver
+[6.562s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/cmake/cg_solverConfig.cmake
+[6.562s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/cmake/cg_solverConfig-version.cmake
+[6.562s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/package.xml
+[6.562s] Invoked command in '/home/inteli/Documentos/culling_games/build/cg_solver' returned '0': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/inteli/Documentos/culling_games/build/cg_solver

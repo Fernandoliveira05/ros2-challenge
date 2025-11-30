@@ -1,0 +1,43 @@
+[0.023s] Invoking command in '/home/inteli/Documentos/culling_games/build/cg_solver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_teleop/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/inteli/Documentos/culling_games/src/cg_solver -DCMAKE_INSTALL_PREFIX=/home/inteli/Documentos/culling_games/install/cg_solver
+[0.036s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.274s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.300s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.309s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.403s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.479s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Found cg_interfaces: 0.0.0 (/home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake)
+[0.577s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.663s] Error parsing '/home/inteli/Documentos/culling_games/src/cg_solver/package.xml':
+[5.897s] Traceback (most recent call last):
+[5.897s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[5.897s]     main()
+[5.897s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[5.897s]     raise e
+[5.898s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[5.898s]     package = parse_package_string(
+[5.898s]               ^^^^^^^^^^^^^^^^^^^^^
+[5.898s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[5.898s]     pkg.validate(warnings=warnings)
+[5.898s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[5.898s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[5.898s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/inteli/Documentos/culling_games/src/cg_solver/package.xml':
+[5.899s] The package "cg_solver" must not "build_depend" on a package with the same name as this package
+[5.899s] The package "cg_solver" must not "build_export_depend" on a package with the same name as this package
+[5.899s] The package "cg_solver" must not "exec_depend" on a package with the same name as this package
+[5.968s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[5.968s]   execute_process(/usr/bin/python3
+[5.969s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.969s]   /home/inteli/Documentos/culling_games/src/cg_solver/package.xml
+[5.969s]   /home/inteli/Documentos/culling_games/build/cg_solver/ament_cmake_core/package.cmake)
+[5.969s]   returned error code 1
+[5.969s] Call Stack (most recent call first):
+[5.969s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[5.969s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[5.969s]   CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)
+[5.970s] 
+[5.970s] [0m
+[5.970s] -- Configuring incomplete, errors occurred!
+[5.984s] Invoked command in '/home/inteli/Documentos/culling_games/build/cg_solver' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_teleop/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/inteli/Documentos/culling_games/src/cg_solver -DCMAKE_INSTALL_PREFIX=/home/inteli/Documentos/culling_games/install/cg_solver

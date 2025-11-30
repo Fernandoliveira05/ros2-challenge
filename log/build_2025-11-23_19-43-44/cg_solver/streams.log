@@ -1,0 +1,45 @@
+[0.380s] Invoking command in '/home/inteli/Documentos/culling_games/build/cg_solver': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/inteli/Documentos/culling_games/src/cg_solver -DCMAKE_INSTALL_PREFIX=/home/inteli/Documentos/culling_games/install/cg_solver
+[0.532s] -- The C compiler identification is GNU 13.3.0
+[0.621s] -- The CXX compiler identification is GNU 13.3.0
+[0.670s] -- Detecting C compiler ABI info
+[0.817s] -- Detecting C compiler ABI info - done
+[0.833s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.835s] -- Detecting C compile features
+[0.836s] -- Detecting C compile features - done
+[0.852s] -- Detecting CXX compiler ABI info
+[0.989s] -- Detecting CXX compiler ABI info - done
+[1.003s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.003s] -- Detecting CXX compile features
+[1.003s] -- Detecting CXX compile features - done
+[1.005s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.174s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.290s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.352s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.364s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.414s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.497s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.500s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.635s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.677s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.718s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.806s] -- Found cg_interfaces: 0.0.0 (/home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake)
+[1.883s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[1.883s]   By not providing "Findcg_solver.cmake" in CMAKE_MODULE_PATH this project
+[1.883s]   has asked CMake to find a package configuration file provided by
+[1.883s]   "cg_solver", but CMake did not find one.
+[1.883s] 
+[1.884s]   Could not find a package configuration file provided by "cg_solver" with
+[1.884s]   any of the following names:
+[1.884s] 
+[1.884s]     cg_solverConfig.cmake
+[1.884s]     cg_solver-config.cmake
+[1.884s] 
+[1.884s]   Add the installation prefix of "cg_solver" to CMAKE_PREFIX_PATH or set
+[1.884s]   "cg_solver_DIR" to a directory containing one of the above files.  If
+[1.885s]   "cg_solver" provides a separate development package or SDK, be sure it has
+[1.885s]   been installed.
+[1.885s] 
+[1.885s] [0m
+[1.885s] -- Configuring incomplete, errors occurred!
+[1.899s] Invoked command in '/home/inteli/Documentos/culling_games/build/cg_solver' returned '1': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/inteli/Documentos/culling_games/src/cg_solver -DCMAKE_INSTALL_PREFIX=/home/inteli/Documentos/culling_games/install/cg_solver

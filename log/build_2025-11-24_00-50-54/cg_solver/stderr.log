@@ -1,0 +1,121 @@
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:5:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCoord[m[K’ does not name a type
+    5 |   [01;31m[KCoord[m[K coord;
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:12:13:[m[K [01;31m[Kerror: [m[K‘[01m[KCoord[m[K’ was not declared in this scope
+   12 | std::vector<[01;31m[KCoord[m[K> dijkstra(
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:12:18:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 | std::vector<Coord[01;31m[K>[m[K dijkstra(
+      |                  [01;31m[K^[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:12:18:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:13:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered_map[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+   13 |   const std::[01;31m[Kunordered_map[m[K<Coord, Node>& graph,
+      |              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:3:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unordered_map[m[K’ is defined in header ‘[01m[K<unordered_map>[m[K’; did you forget to ‘[01m[K#include <unordered_map>[m[K’?
+    2 | #include <limits>
+  +++ |+[32m[K#include <unordered_map>[m[K
+    3 | 
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:13:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   13 |   const std::unordered_map[01;31m[K<[m[KCoord, Node>& graph,
+      |                           [01;31m[K^[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:[m[K In function ‘[01m[Kint[01;32m[K dijkstra[m[K(int)[m[K’:
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:17:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered_map[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   17 |   std::[01;31m[Kunordered_map[m[K<Coord, int> dist;
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:17:8:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unordered_map[m[K’ is defined in header ‘[01m[K<unordered_map>[m[K’; did you forget to ‘[01m[K#include <unordered_map>[m[K’?
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:17:22:[m[K [01;31m[Kerror: [m[K‘[01m[KCoord[m[K’ was not declared in this scope
+   17 |   std::unordered_map<[01;31m[KCoord[m[K, int> dist;
+      |                      [01;31m[K^~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:17:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+   17 |   std::unordered_map<Coord, [01;31m[Kint[m[K> dist;
+      |                             [01;31m[K^~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:18:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered_map[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   18 |   std::[01;31m[Kunordered_map[m[K<Coord, Coord> parent;
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:18:8:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unordered_map[m[K’ is defined in header ‘[01m[K<unordered_map>[m[K’; did you forget to ‘[01m[K#include <unordered_map>[m[K’?
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:18:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kparent[m[K’ was not declared in this scope
+   18 |   std::unordered_map<Coord, Coord> [01;31m[Kparent[m[K;
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:21:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kgraph[m[K’ was not declared in this scope
+   21 |   for (const auto& [coord, node] : [01;31m[Kgraph[m[K) {
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+   22 |     [01;31m[Kdist[m[K[coord] = INF;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+   24 |   [01;31m[Kdist[m[K[start] = 0;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:24:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart[m[K’ was not declared in this scope
+   24 |   dist[[01;31m[Kstart[m[K] = 0;
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:27:10:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::priority_queue<DNode, std::vector<DNode>, std::greater<DNode> >::push(<brace-enclosed initializer list>)[m[K’
+   27 |   [01;31m[Kpq.push({start, 0})[m[K;
+      |   [01;31m[K~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/queue:66[m[K,
+                 from [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/stl_queue.h:738:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::priority_queue<_Tp, _Sequence, _Compare>::[01;32m[Kpush[m[K(const value_type&) [35m[K[with _Tp = DNode; _Sequence = std::vector<DNode>; _Compare = std::greater<DNode>; value_type = DNode][m[K[m[K’
+  738 |       [01;36m[Kpush[m[K(const value_type& __x)
+      |       [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_queue.h:738:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::priority_queue<DNode, std::vector<DNode>, std::greater<DNode> >::value_type&[m[K’ {aka ‘[01m[Kconst DNode&[m[K’}
+  738 |       push([01;36m[Kconst value_type& __x[m[K)
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_queue.h:746:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::priority_queue<_Tp, _Sequence, _Compare>::[01;32m[Kpush[m[K(value_type&&) [35m[K[with _Tp = DNode; _Sequence = std::vector<DNode>; _Compare = std::greater<DNode>; value_type = DNode][m[K[m[K’
+  746 |       [01;36m[Kpush[m[K(value_type&& __x)
+      |       [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_queue.h:746:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::priority_queue<DNode, std::vector<DNode>, std::greater<DNode> >::value_type&&[m[K’ {aka ‘[01m[KDNode&&[m[K’}
+  746 |       push([01;36m[Kvalue_type&& __x[m[K)
+      |            [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:30:10:[m[K [01;31m[Kerror: [m[K2 names provided for structured binding
+   30 |     auto [01;31m[K[u, d][m[K = pq.top();
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:30:10:[m[K [01;36m[Knote: [m[Kwhile ‘[01m[KDNode[m[K’ decomposes into 1 element
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:33:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+   33 |     if (u == [01;31m[Kgoal[m[K) break;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:36:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kgraph[m[K’ was not declared in this scope
+   36 |     const auto& node = [01;31m[Kgraph[m[K.at(u);
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:42:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::priority_queue<DNode, std::vector<DNode>, std::greater<DNode> >::push(<brace-enclosed initializer list>)[m[K’
+   42 |         [01;31m[Kpq.push({v, nd})[m[K;
+      |         [01;31m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_queue.h:738:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::priority_queue<_Tp, _Sequence, _Compare>::[01;32m[Kpush[m[K(const value_type&) [35m[K[with _Tp = DNode; _Sequence = std::vector<DNode>; _Compare = std::greater<DNode>; value_type = DNode][m[K[m[K’
+  738 |       [01;36m[Kpush[m[K(const value_type& __x)
+      |       [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_queue.h:738:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::priority_queue<DNode, std::vector<DNode>, std::greater<DNode> >::value_type&[m[K’ {aka ‘[01m[Kconst DNode&[m[K’}
+  738 |       push([01;36m[Kconst value_type& __x[m[K)
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_queue.h:746:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::priority_queue<_Tp, _Sequence, _Compare>::[01;32m[Kpush[m[K(value_type&&) [35m[K[with _Tp = DNode; _Sequence = std::vector<DNode>; _Compare = std::greater<DNode>; value_type = DNode][m[K[m[K’
+  746 |       [01;36m[Kpush[m[K(value_type&& __x)
+      |       [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_queue.h:746:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::priority_queue<DNode, std::vector<DNode>, std::greater<DNode> >::value_type&&[m[K’ {aka ‘[01m[KDNode&&[m[K’}
+  746 |       push([01;36m[Kvalue_type&& __x[m[K)
+      |            [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:48:20:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   48 |   std::vector<Coord[01;31m[K>[m[K path;
+      |                    [01;31m[K^[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:49:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+   49 |   if (!parent.count([01;31m[Kgoal[m[K) && !(start == goal)) {
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:53:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcur[m[K’
+   53 |   Coord[01;31m[K [m[K[32m[Kcur[m[K = goal;
+      |        [01;31m[K^[m[K[32m[K~~~[m[K
+      |        [32m[K;[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:54:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcur[m[K’ was not declared in this scope
+   54 |   while (!([01;31m[Kcur[m[K == start)) {
+      |            [01;31m[K^~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:55:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kpath[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   55 |     path.[01;31m[Kpush_back[m[K(cur);
+      |          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:58:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kreverse[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   58 |   std::[01;31m[Kreverse[m[K(path.begin(), path.end());
+      |        [01;31m[K^~~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:58:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[Kpath[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   58 |   std::reverse(path.[01;31m[Kbegin[m[K(), path.end());
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:58:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[Kpath[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   58 |   std::reverse(path.begin(), path.[01;31m[Kend[m[K());
+      |                                   [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/mapear.dir/build.make:76: CMakeFiles/mapear.dir/src/mapear.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mapear.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

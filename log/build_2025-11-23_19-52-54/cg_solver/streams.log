@@ -1,0 +1,45 @@
+[0.379s] Invoking command in '/home/inteli/Documentos/culling_games/build/cg_solver': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/inteli/Documentos/culling_games/src/cg_solver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/inteli/Documentos/culling_games/install/cg_solver
+[0.401s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.780s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.828s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.845s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.876s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.940s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.941s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.149s] -- Found cg_interfaces: 0.0.0 (/home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake)
+[1.184s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.360s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.360s] -- Configured cppcheck include dirs: 
+[1.360s] -- Configured cppcheck exclude dirs and/or files: 
+[1.361s] -- Added test 'lint_cmake' to check CMake code style
+[1.363s] -- Added test 'uncrustify' to check C / C++ code style
+[1.363s] -- Configured uncrustify additional arguments: 
+[1.363s] -- Added test 'xmllint' to check XML markup files
+[1.366s] -- Configuring done (1.0s)
+[1.384s] -- Generating done (0.0s)
+[1.386s] [33mCMake Warning:
+[1.386s]   Manually-specified variables were not used by the project:
+[1.387s] 
+[1.387s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.387s] 
+[1.387s] [0m
+[1.393s] -- Build files have been written to: /home/inteli/Documentos/culling_games/build/cg_solver
+[1.405s] Invoked command in '/home/inteli/Documentos/culling_games/build/cg_solver' returned '0': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/inteli/Documentos/culling_games/src/cg_solver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/inteli/Documentos/culling_games/install/cg_solver
+[1.407s] Invoking command in '/home/inteli/Documentos/culling_games/build/cg_solver': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/inteli/Documentos/culling_games/build/cg_solver -- -j12 -l12
+[1.484s] [ 50%] [32mBuilding CXX object CMakeFiles/maze_solver.dir/src/solver.cpp.o[0m
+[4.470s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/solver.cpp:[m[K In member function ‘[01m[Kvoid MazeSolverNode::[01;32m[Ksolve_once[m[K()[m[K’:
+[4.470s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/solver.cpp:62:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<cg_interfaces::srv::GetMap_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kwidth[m[K’
+[4.470s]    62 |     int width  = response->[01;31m[Kwidth[m[K;
+[4.471s]       |                            [01;31m[K^~~~~[m[K
+[4.471s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/solver.cpp:63:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<cg_interfaces::srv::GetMap_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheight[m[K’
+[4.471s]    63 |     int height = response->[01;31m[Kheight[m[K;
+[4.471s]       |                            [01;31m[K^~~~~~[m[K
+[4.471s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/solver.cpp:64:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<cg_interfaces::srv::GetMap_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[4.471s]    64 |     const auto & flat = response->[01;31m[Kdata[m[K;  // por ex: std::vector<int8_t>
+[4.471s]       |                                   [01;31m[K^~~~[m[K
+[5.576s] gmake[2]: *** [CMakeFiles/maze_solver.dir/build.make:76: CMakeFiles/maze_solver.dir/src/solver.cpp.o] Erro 1
+[5.576s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/maze_solver.dir/all] Erro 2
+[5.577s] gmake: *** [Makefile:146: all] Erro 2
+[5.579s] Invoked command in '/home/inteli/Documentos/culling_games/build/cg_solver' returned '2': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/inteli/Documentos/culling_games/build/cg_solver -- -j12 -l12

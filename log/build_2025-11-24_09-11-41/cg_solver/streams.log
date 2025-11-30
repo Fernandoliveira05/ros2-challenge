@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/inteli/Documentos/culling_games/build/cg_solver': CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:/home/inteli/Documentos/culling_games/install/cg_teleop:/home/inteli/Documentos/culling_games/install/cg:/opt/ros/jazzy:/home/inteli/Documentos/culling_games/install/cg_solver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_teleop/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/inteli/Documentos/culling_games/build/cg_solver -- -j12 -l12
+[0.102s] [ 50%] Built target maze_solver
+[0.107s] [ 75%] [32mBuilding CXX object CMakeFiles/mapear.dir/src/mapear.cpp.o[0m
+[2.648s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:44:[m[K [01;31m[Kerror: [m[K‘[01m[KRobot_sensors[m[K’ is not a member of ‘[01m[Kcg_interfaces::msg[m[K’; did you mean ‘[01m[KRobotSensors[m[K’?
+[2.648s]   158 |   rclcpp::Subscription<cg_interfaces::msg::[01;31m[KRobot_sensors[m[K>::SharedPtr sensor_sub_;
+[2.648s]       |                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[2.648s]       |                                            [32m[KRobotSensors[m[K
+[2.648s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.649s]   158 |   rclcpp::Subscription<cg_interfaces::msg::Robot_sensors[01;31m[K>[m[K::SharedPtr sensor_sub_;
+[2.649s]       |                                                         [01;31m[K^[m[K
+[2.649s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.649s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[2.649s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[2.650s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.650s]   158 |   rclcpp::Subscription<cg_interfaces::msg::Robot_sensors>::[01;31m[KSharedPtr[m[K sensor_sub_;
+[2.650s]       |                                                            [01;31m[K^~~~~~~~~[m[K
+[2.651s]       |                                                                     [32m[K;[m[K
+[2.651s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:70:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_sub_[m[K’ does not name a type
+[2.651s]   158 |   rclcpp::Subscription<cg_interfaces::msg::Robot_sensors>::SharedPtr [01;31m[Ksensor_sub_[m[K;
+[2.651s]       |                                                                      [01;31m[K^~~~~~~~~~~[m[K
+[2.686s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:[m[K In constructor ‘[01m[KMapearNode::[01;32m[KMapearNode[m[K()[m[K’:
+[2.686s] [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:140:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_sub_[m[K’ was not declared in this scope
+[2.686s]   140 |     [01;31m[Ksensor_sub_[m[K = this->create_subscription<cg_interfaces::msg::RobotSensors>(
+[2.686s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.345s] gmake[2]: *** [CMakeFiles/mapear.dir/build.make:76: CMakeFiles/mapear.dir/src/mapear.cpp.o] Error 1
+[5.345s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mapear.dir/all] Error 2
+[5.346s] gmake: *** [Makefile:146: all] Error 2
+[5.350s] Invoked command in '/home/inteli/Documentos/culling_games/build/cg_solver' returned '2': CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:/home/inteli/Documentos/culling_games/install/cg_teleop:/home/inteli/Documentos/culling_games/install/cg:/opt/ros/jazzy:/home/inteli/Documentos/culling_games/install/cg_solver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_teleop/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/inteli/Documentos/culling_games/build/cg_solver -- -j12 -l12

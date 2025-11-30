@@ -1,0 +1,4 @@
+/home/inteli/Documentos/culling_games/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/MoveCmd.idl
+/home/inteli/Documentos/culling_games/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/GetMap.idl
+/home/inteli/Documentos/culling_games/build/cg_interfaces/rosidl_adapter/cg_interfaces:msg/RobotSensors.idl
+/home/inteli/Documentos/culling_games/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/Reset.idl

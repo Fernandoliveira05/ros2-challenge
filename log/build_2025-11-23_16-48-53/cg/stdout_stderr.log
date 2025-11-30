@@ -1,0 +1,101 @@
+running egg_info
+creating ../../build/cg/cg.egg-info
+writing ../../build/cg/cg.egg-info/PKG-INFO
+writing dependency_links to ../../build/cg/cg.egg-info/dependency_links.txt
+writing entry points to ../../build/cg/cg.egg-info/entry_points.txt
+writing requirements to ../../build/cg/cg.egg-info/requires.txt
+writing top-level names to ../../build/cg/cg.egg-info/top_level.txt
+writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+reading manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/inteli/Documentos/culling_games/build/cg/build
+creating /home/inteli/Documentos/culling_games/build/cg/build/lib
+creating /home/inteli/Documentos/culling_games/build/cg/build/lib/cg
+copying cg/Game.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg
+copying cg/main.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg
+copying cg/Maze.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg
+copying cg/Robot.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg
+copying cg/__init__.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg
+copying cg/Editor.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg
+copying cg/teste.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg
+creating /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils
+copying cg/Utils/Screen.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils
+copying cg/Utils/__init__.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils
+copying cg/Utils/Finders.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils
+copying cg/Utils/Grid.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils
+copying cg/Utils/Csv.py -> /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils
+running install
+running install_lib
+creating /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Game.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/main.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Maze.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Robot.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/__init__.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg
+creating /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils/Screen.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils/__init__.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils/Finders.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils/Grid.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Utils/Csv.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/Editor.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg
+copying /home/inteli/Documentos/culling_games/build/cg/build/lib/cg/teste.py -> /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Game.py to Game.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/main.py to main.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Maze.py to Maze.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Robot.py to Robot.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils/Screen.py to Screen.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils/Finders.py to Finders.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils/Grid.py to Grid.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Utils/Csv.py to Csv.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/Editor.py to Editor.cpython-312.pyc
+byte-compiling /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg/teste.py to teste.cpython-312.pyc
+running install_data
+creating /home/inteli/Documentos/culling_games/install/cg/share/ament_index
+creating /home/inteli/Documentos/culling_games/install/cg/share/ament_index/resource_index
+creating /home/inteli/Documentos/culling_games/install/cg/share/ament_index/resource_index/packages
+copying resource/cg -> /home/inteli/Documentos/culling_games/install/cg/share/ament_index/resource_index/packages
+copying package.xml -> /home/inteli/Documentos/culling_games/install/cg/share/cg
+creating /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/9.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/10.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/6.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/1.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/4.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/7.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/5.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/8.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/2.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/test.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+copying maps/3.csv -> /home/inteli/Documentos/culling_games/install/cg/share/cg/maps
+creating /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/cook.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/potential_man.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/dabura.png -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/fax3.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/shibuya.jpeg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/wuji.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/mental_damage.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/brain_damage.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/remembered.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/cinema.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/idwin.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/dies_from_peak.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/freddy.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/megumi.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/goatjo.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/suksuk.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/mou.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/fax.jpg -> /home/inteli/Documentos/culling_games/install/cg/share/cg/lobotomy_kaisen
+running install_egg_info
+Copying ../../build/cg/cg.egg-info to /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing edit script to /home/inteli/Documentos/culling_games/install/cg/lib/cg
+Installing maze script to /home/inteli/Documentos/culling_games/install/cg/lib/cg
+Installing test script to /home/inteli/Documentos/culling_games/install/cg/lib/cg
+writing list of installed files to '/home/inteli/Documentos/culling_games/build/cg/install.log'

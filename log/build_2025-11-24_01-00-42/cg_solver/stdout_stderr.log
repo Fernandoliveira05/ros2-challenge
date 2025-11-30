@@ -1,0 +1,94 @@
+[ 50%] Built target maze_solver
+[ 75%] [32mBuilding CXX object CMakeFiles/mapear.dir/src/mapear.cpp.o[0m
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:[m[K In constructor ‘[01m[KMapearNode::[01;32m[KMapearNode[m[K()[m[K’:
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(<brace-enclosed initializer list>)[m[K’
+  158 |     graph_[start_] = Node{start_, {}[01;31m[K}[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:13[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K’
+ 1629 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1630:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KCoord[m[K’ to ‘[01m[Kconst rclcpp::Node&[m[K’
+ 1630 |     [01;36m[Kconst Node & other[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K’
+  103 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:104:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KCoord[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  104 |     [01;36m[Kconst std::string & node_name[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K’
+   91 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:92:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KCoord[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   92 |     [01;36m[Kconst std::string & node_name[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:[m[K In member function ‘[01m[Kvoid MapearNode::[01;32m[Kensure_node_exists[m[K(const Coord&)[m[K’:
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:207:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(<brace-enclosed initializer list>)[m[K’
+  207 |       graph_[c] = Node{c, {}[01;31m[K}[m[K;
+      |                             [01;31m[K^[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K’
+ 1629 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1630:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Coord[m[K’ to ‘[01m[Kconst rclcpp::Node&[m[K’
+ 1630 |     [01;36m[Kconst Node & other[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K’
+  103 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:104:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Coord[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  104 |     [01;36m[Kconst std::string & node_name[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K’
+   91 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:92:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Coord[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   92 |     [01;36m[Kconst std::string & node_name[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:[m[K In member function ‘[01m[Kvoid MapearNode::[01;32m[Kadd_edge[m[K(const Coord&, const Coord&)[m[K’:
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:216:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::unordered_map<Coord, rclcpp::Node>::mapped_type[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Kneighbors[m[K’
+  216 |     auto & na = graph_[a].[01;31m[Kneighbors[m[K;
+      |                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:217:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::unordered_map<Coord, rclcpp::Node>::mapped_type[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Kneighbors[m[K’
+  217 |     auto & nb = graph_[b].[01;31m[Kneighbors[m[K;
+      |                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:[m[K In member function ‘[01m[Kvoid MapearNode::[01;32m[Krun_dijkstra_and_compare[m[K()[m[K’:
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:421:30:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst std::unordered_map<Coord, Node>&[m[K’ from expression of type ‘[01m[Kstd::unordered_map<Coord, rclcpp::Node>[m[K’
+  421 |     auto shortest = dijkstra([01;31m[Kgraph_[m[K, start_, goal_);
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:69:43:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kstd::vector<Coord>[01;32m[K dijkstra[m[K(const std::unordered_map<Coord, Node>&, Coord, Coord)[m[K’
+   69 |   [01;36m[Kconst std::unordered_map<Coord, Node> & graph[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/unique_ptr.h:36[m[K,
+                 from [01m[K/usr/include/c++/13/memory:78[m[K,
+                 from [01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:2[m[K:
+/usr/include/c++/13/tuple: In instantiation of ‘[01m[Kstd::pair<_T1, _T2>::[01;32m[Kpair[m[K(std::tuple<_Args1 ...>&, std::tuple<_Args2 ...>&, std::_Index_tuple<_Indexes1 ...>, std::_Index_tuple<_Indexes2 ...>) [35m[K[with _Args1 = {const Coord&}; long unsigned int ..._Indexes1 = {0}; _Args2 = {}; long unsigned int ..._Indexes2 = {}; _T1 = const Coord; _T2 = rclcpp::Node][m[K[m[K’:
+[01m[K/usr/include/c++/13/tuple:2257:63:[m[K   required from ‘[01m[Kstd::pair<_T1, _T2>::[01;32m[Kpair[m[K(std::piecewise_construct_t, std::tuple<_Args1 ...>, std::tuple<_Args2 ...>) [35m[K[with _Args1 = {const Coord&}; _Args2 = {}; _T1 = const Coord; _T2 = rclcpp::Node][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/new_allocator.h:191:4:[m[K   required from ‘[01m[Kvoid std::__new_allocator<_Tp>::[01;32m[Kconstruct[m[K(_Up*, _Args&& ...) [35m[K[with _Up = std::pair<const Coord, rclcpp::Node>; _Args = {const std::piecewise_construct_t&, std::tuple<const Coord&>, std::tuple<>}; _Tp = std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false>][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/alloc_traits.h:538:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = std::pair<const Coord, rclcpp::Node>; _Args = {const std::piecewise_construct_t&, std::tuple<const Coord&>, std::tuple<>}; _Tp = std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false>; allocator_type = std::allocator<std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false> >][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/hashtable_policy.h:1995:36:[m[K   required from ‘[01m[Kstd::__detail::_Hashtable_alloc<_NodeAlloc>::__node_type* std::__detail::_Hashtable_alloc<_NodeAlloc>::[01;32m[K_M_allocate_node[m[K(_Args&& ...) [35m[K[with _Args = {const std::piecewise_construct_t&, std::tuple<const Coord&>, std::tuple<>}; _NodeAlloc = std::allocator<std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false> >; __node_ptr = std::allocator<std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false> >::value_type*][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/hashtable.h:307:35:[m[K   required from ‘[01m[Kstd::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits>::_Scoped_node::[01;32m[K_Scoped_node[m[K(std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits>::__hashtable_alloc*, _Args&& ...) [35m[K[with _Args = {const std::piecewise_construct_t&, std::tuple<const Coord&>, std::tuple<>}; _Key = Coord; _Value = std::pair<const Coord, rclcpp::Node>; _Alloc = std::allocator<std::pair<const Coord, rclcpp::Node> >; _ExtractKey = std::__detail::_Select1st; _Equal = std::equal_to<Coord>; _Hash = std::hash<Coord>; _RangeHash = std::__detail::_Mod_range_hashing; _Unused = std::__detail::_Default_ranged_hash; _RehashPolicy = std::__detail::_Prime_rehash_policy; _Traits = std::__detail::_Hashtable_traits<false, false, true>; std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits>::__hashtable_alloc = std::_Hashtable<Coord, std::pair<const Coord, rclcpp::Node>, std::allocator<std::pair<const Coord, rclcpp::Node> >, std::__detail::_Select1st, std::equal_to<Coord>, std::hash<Coord>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::__hashtable_alloc][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/hashtable_policy.h:818:42:[m[K   required from ‘[01m[Kstd::__detail::_Map_base<_Key, std::pair<const _Key, _Val>, _Alloc, std::__detail::_Select1st, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits, true>::mapped_type& std::__detail::_Map_base<_Key, std::pair<const _Key, _Val>, _Alloc, std::__detail::_Select1st, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits, true>::[01;32m[Koperator[][m[K(const key_type&) [35m[K[with _Key = Coord; _Val = rclcpp::Node; _Alloc = std::allocator<std::pair<const Coord, rclcpp::Node> >; _Equal = std::equal_to<Coord>; _Hash = std::hash<Coord>; _RangeHash = std::__detail::_Mod_range_hashing; _Unused = std::__detail::_Default_ranged_hash; _RehashPolicy = std::__detail::_Prime_rehash_policy; _Traits = std::__detail::_Hashtable_traits<false, false, true>; mapped_type = rclcpp::Node; key_type = Coord][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/unordered_map.h:987:20:[m[K   required from ‘[01m[Kstd::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::mapped_type& std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::[01;32m[Koperator[][m[K(const key_type&) [35m[K[with _Key = Coord; _Tp = rclcpp::Node; _Hash = std::hash<Coord>; _Pred = std::equal_to<Coord>; _Alloc = std::allocator<std::pair<const Coord, rclcpp::Node> >; mapped_type = rclcpp::Node; key_type = Coord][m[K[m[K’
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:18:[m[K   required from here
+[01m[K/usr/include/c++/13/tuple:2268:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+ 2268 |         [01;31m[Ksecond(std::forward<_Args2>(std::get<_Indexes2>(__tuple2))...)[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K’
+ 1629 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K’
+  103 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K’
+   91 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/mapear.dir/build.make:76: CMakeFiles/mapear.dir/src/mapear.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mapear.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

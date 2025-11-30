@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cg_interfaces__py",
+		"source" : "/home/inteli/Documentos/culling_games/build/cg_interfaces/cg_interfaces__py"
+	}
+}

@@ -1,0 +1,232 @@
+[0.022s] Invoking command in '/home/inteli/Documentos/culling_games/build/cg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/inteli/Documentos/culling_games/build/cg_interfaces -- -j12 -l12
+[0.122s] [  1%] Built target cg_interfaces__rosidl_generator_type_description
+[0.133s] [  1%] Built target ament_cmake_python_copy_cg_interfaces
+[0.164s] [ 18%] Built target cg_interfaces__cpp
+[0.164s] [ 25%] Built target cg_interfaces__rosidl_generator_c
+[0.208s] [ 34%] Built target cg_interfaces__rosidl_typesupport_c
+[0.213s] [ 54%] Built target cg_interfaces__rosidl_typesupport_introspection_c
+[0.213s] [ 60%] Built target cg_interfaces__rosidl_typesupport_introspection_cpp
+[0.213s] [ 62%] Built target cg_interfaces__rosidl_typesupport_cpp
+[0.214s] [ 71%] Built target cg_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.216s] [ 81%] Built target cg_interfaces__rosidl_typesupport_fastrtps_c
+[0.253s] [ 81%] Built target cg_interfaces
+[0.297s] [ 82%] Built target cg_interfaces__py
+[0.348s] [ 90%] Built target cg_interfaces__rosidl_generator_py
+[0.397s] [100%] Built target cg_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.397s] [100%] Built target cg_interfaces_s__rosidl_typesupport_introspection_c
+[0.397s] [100%] Built target cg_interfaces_s__rosidl_typesupport_c
+[0.442s] running egg_info
+[0.465s] writing cg_interfaces.egg-info/PKG-INFO
+[0.465s] writing dependency_links to cg_interfaces.egg-info/dependency_links.txt
+[0.465s] writing top-level names to cg_interfaces.egg-info/top_level.txt
+[0.524s] reading manifest file 'cg_interfaces.egg-info/SOURCES.txt'
+[0.525s] writing manifest file 'cg_interfaces.egg-info/SOURCES.txt'
+[0.570s] [100%] Built target ament_cmake_python_build_cg_interfaces_egg
+[0.595s] Invoked command in '/home/inteli/Documentos/culling_games/build/cg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/inteli/Documentos/culling_games/build/cg_interfaces -- -j12 -l12
+[0.618s] Invoking command in '/home/inteli/Documentos/culling_games/build/cg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/inteli/Documentos/culling_games/build/cg_interfaces
+[0.636s] -- Install configuration: ""
+[0.637s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/ament_index/resource_index/rosidl_interfaces/cg_interfaces
+[0.637s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.json
+[0.637s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/GetMap.json
+[0.638s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/msg/RobotSensors.json
+[0.638s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/Reset.json
+[0.638s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.638s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.639s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.h
+[0.639s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.h
+[0.639s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/reset.h
+[0.639s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.639s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.h
+[0.640s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.c
+[0.640s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.c
+[0.640s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__functions.c
+[0.640s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__description.c
+[0.641s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__description.c
+[0.641s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.h
+[0.641s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.c
+[0.641s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.h
+[0.641s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__struct.h
+[0.641s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.c
+[0.642s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.h
+[0.642s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.c
+[0.642s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__functions.h
+[0.642s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.h
+[0.643s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.h
+[0.643s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.h
+[0.643s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__description.c
+[0.643s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.643s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.644s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail
+[0.644s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__description.c
+[0.644s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__functions.h
+[0.644s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__struct.h
+[0.644s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__functions.c
+[0.645s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.h
+[0.645s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.c
+[0.645s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/robot_sensors.h
+[0.645s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/library_path.sh
+[0.645s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/library_path.dsv
+[0.646s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_c.so
+[0.646s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.646s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.646s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.646s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_c.h
+[0.647s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_fastrtps_c.h
+[0.647s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[0.647s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.647s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.647s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail
+[0.648s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_fastrtps_c.h
+[0.648s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.648s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.648s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.649s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.649s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.c
+[0.649s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[0.649s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_c.h
+[0.649s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_introspection_c.h
+[0.649s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.c
+[0.650s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.c
+[0.650s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.650s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail
+[0.650s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_introspection_c.h
+[0.650s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.c
+[0.650s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.651s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_c.so
+[0.651s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_c.so
+[0.651s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.651s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.651s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/reset.hpp
+[0.651s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.hpp
+[0.652s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.652s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.hpp
+[0.652s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__builder.hpp
+[0.652s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__builder.hpp
+[0.652s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.hpp
+[0.652s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__struct.hpp
+[0.653s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.hpp
+[0.653s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__builder.hpp
+[0.653s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__traits.hpp
+[0.653s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__traits.hpp
+[0.653s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__traits.hpp
+[0.653s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.hpp
+[0.654s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.hpp
+[0.654s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.hpp
+[0.654s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.654s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.654s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/robot_sensors.hpp
+[0.654s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail
+[0.655s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__traits.hpp
+[0.655s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__builder.hpp
+[0.655s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.hpp
+[0.655s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__struct.hpp
+[0.655s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.655s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.655s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.656s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.656s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/dds_fastrtps
+[0.656s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[0.656s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp
+[0.656s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.656s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail
+[0.657s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/dds_fastrtps
+[0.657s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_fastrtps_cpp.hpp
+[0.657s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.657s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.657s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.657s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.658s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.658s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.658s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.cpp
+[0.658s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[0.658s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.cpp
+[0.658s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp
+[0.659s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.cpp
+[0.659s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.659s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail
+[0.659s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_introspection_cpp.hpp
+[0.659s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.cpp
+[0.659s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.659s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_cpp.so
+[0.660s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.sh
+[0.660s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.dsv
+[0.660s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info
+[0.660s] -- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[0.660s] -- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.660s] -- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[0.661s] -- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.661s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces
+[0.661s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.so
+[0.661s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.661s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/__init__.py
+[0.661s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.662s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.662s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_c.c
+[0.662s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.662s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv
+[0.662s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_get_map.py
+[0.662s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/__init__.py
+[0.663s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_move_cmd.py
+[0.663s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_get_map_s.c
+[0.663s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_reset_s.c
+[0.663s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_reset.py
+[0.663s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_move_cmd_s.c
+[0.663s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg
+[0.663s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg/__init__.py
+[0.664s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg/_robot_sensors_s.c
+[0.664s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg/_robot_sensors.py
+[0.729s] Listing '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces'...
+[0.730s] Listing '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg'...
+[0.730s] Listing '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv'...
+[0.741s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.742s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.743s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.so
+[0.743s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_py.so
+[0.744s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.idl
+[0.744s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/GetMap.idl
+[0.744s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/msg/RobotSensors.idl
+[0.744s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/Reset.idl
+[0.744s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.srv
+[0.745s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/GetMap.srv
+[0.745s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/msg/RobotSensors.msg
+[0.745s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/Reset.srv
+[0.745s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/ament_index/resource_index/package_run_dependencies/cg_interfaces
+[0.746s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/ament_index/resource_index/parent_prefix_path/cg_interfaces
+[0.746s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.sh
+[0.746s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.dsv
+[0.746s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/path.sh
+[0.747s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/path.dsv
+[0.747s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/local_setup.bash
+[0.747s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/local_setup.sh
+[0.747s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/local_setup.zsh
+[0.747s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/local_setup.dsv
+[0.748s] -- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/package.dsv
+[0.748s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/ament_index/resource_index/packages/cg_interfaces
+[0.748s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport.cmake
+[0.748s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.748s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.749s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.749s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.749s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.749s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport.cmake
+[0.749s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.750s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cppExport.cmake
+[0.750s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.750s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.750s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.750s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.750s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport.cmake
+[0.751s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.751s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport.cmake
+[0.751s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.751s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.751s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.752s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.752s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.752s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.752s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.753s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.753s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig.cmake
+[0.754s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig-version.cmake
+[0.755s] -- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/package.xml
+[0.755s] Invoked command in '/home/inteli/Documentos/culling_games/build/cg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/inteli/Documentos/culling_games/build/cg_interfaces

@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000831] (-) JobUnselected: {'identifier': 'cg'}
+[0.000894] (-) JobUnselected: {'identifier': 'cg_interfaces'}
+[0.000957] (-) JobUnselected: {'identifier': 'cg_teleop'}
+[0.001002] (cg_solver) JobQueued: {'identifier': 'cg_solver', 'dependencies': OrderedDict({'cg_interfaces': '/home/inteli/Documentos/culling_games/install/cg_interfaces'})}
+[0.001165] (cg_solver) JobStarted: {'identifier': 'cg_solver'}
+[0.012585] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'cmake'}
+[0.014291] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'build'}
+[0.014364] (cg_solver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/inteli/Documentos/culling_games/build/cg_solver', '--', '-j12', '-l12'], 'cwd': '/home/inteli/Documentos/culling_games/build/cg_solver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2845', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/inteli:@/tmp/.ICE-unix/2645,unix/inteli:/tmp/.ICE-unix/2645', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6b48e545_ac84_4eee_9ddf_bd398401c749', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.04LEG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_teleop:/home/inteli/Documentos/culling_games/install/cg_solver:/home/inteli/Documentos/culling_games/install/cg:/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/Documentos/culling_games/build/cg_solver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_teleop/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/home/inteli/Documentos/culling_games/install/cg_teleop:/home/inteli/Documentos/culling_games/install/cg:/opt/ros/jazzy:/home/inteli/Documentos/culling_games/install/cg_solver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.083942] (cg_solver) StdoutLine: {'line': b'[ 50%] Built target maze_solver\n'}
+[0.086078] (cg_solver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mapear.dir/src/mapear.cpp.o\x1b[0m\n'}
+[0.099658] (-) TimerEvent: {}
+[0.200026] (-) TimerEvent: {}
+[0.300581] (-) TimerEvent: {}
+[0.401217] (-) TimerEvent: {}
+[0.501616] (-) TimerEvent: {}
+[0.601985] (-) TimerEvent: {}
+[0.702422] (-) TimerEvent: {}
+[0.803054] (-) TimerEvent: {}
+[0.903378] (-) TimerEvent: {}
+[1.003771] (-) TimerEvent: {}
+[1.104194] (-) TimerEvent: {}
+[1.204626] (-) TimerEvent: {}
+[1.305078] (-) TimerEvent: {}
+[1.405501] (-) TimerEvent: {}
+[1.505911] (-) TimerEvent: {}
+[1.606327] (-) TimerEvent: {}
+[1.706762] (-) TimerEvent: {}
+[1.807123] (-) TimerEvent: {}
+[1.907518] (-) TimerEvent: {}
+[2.007856] (-) TimerEvent: {}
+[2.108225] (-) TimerEvent: {}
+[2.208590] (-) TimerEvent: {}
+[2.267555] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMapearNode::\x1b[01;32m\x1b[KMapearNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.268443] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.268610] (cg_solver) StderrLine: {'line': b'  158 |     graph_[start_] = Node{start_, {}\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.268735] (cg_solver) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.268860] (cg_solver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.268982] (cg_solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.269288] (cg_solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[2.269405] (cg_solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:13\x1b[m\x1b[K:\n'}
+[2.269520] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const rclcpp::Node&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.269640] (cg_solver) StderrLine: {'line': b' 1629 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.269752] (cg_solver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.269858] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1630:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KCoord\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Node&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.269965] (cg_solver) StderrLine: {'line': b' 1630 |     \x1b[01;36m\x1b[Kconst Node & other\x1b[m\x1b[K,\n'}
+[2.270069] (cg_solver) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.270175] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.270282] (cg_solver) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.270385] (cg_solver) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.270490] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:104:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KCoord\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.270615] (cg_solver) StderrLine: {'line': b'  104 |     \x1b[01;36m\x1b[Kconst std::string & node_name\x1b[m\x1b[K,\n'}
+[2.270724] (cg_solver) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.270836] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.270942] (cg_solver) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.271045] (cg_solver) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.271156] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:92:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KCoord\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.271267] (cg_solver) StderrLine: {'line': b'   92 |     \x1b[01;36m\x1b[Kconst std::string & node_name\x1b[m\x1b[K,\n'}
+[2.271371] (cg_solver) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.271475] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MapearNode::\x1b[01;32m\x1b[Kensure_node_exists\x1b[m\x1b[K(const Coord&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.271612] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:207:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.271718] (cg_solver) StderrLine: {'line': b'  207 |       graph_[c] = Node{c, {}\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.271823] (cg_solver) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.271929] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const rclcpp::Node&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.272033] (cg_solver) StderrLine: {'line': b' 1629 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.272135] (cg_solver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.272240] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1630:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Coord\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Node&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.272343] (cg_solver) StderrLine: {'line': b' 1630 |     \x1b[01;36m\x1b[Kconst Node & other\x1b[m\x1b[K,\n'}
+[2.272444] (cg_solver) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.272556] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.272676] (cg_solver) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.272796] (cg_solver) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.272935] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:104:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Coord\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.273079] (cg_solver) StderrLine: {'line': b'  104 |     \x1b[01;36m\x1b[Kconst std::string & node_name\x1b[m\x1b[K,\n'}
+[2.273242] (cg_solver) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.273405] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.273568] (cg_solver) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[2.273688] (cg_solver) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.273797] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:92:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst Coord\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.273910] (cg_solver) StderrLine: {'line': b'   92 |     \x1b[01;36m\x1b[Kconst std::string & node_name\x1b[m\x1b[K,\n'}
+[2.274014] (cg_solver) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.274125] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MapearNode::\x1b[01;32m\x1b[Kadd_edge\x1b[m\x1b[K(const Coord&, const Coord&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.274230] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:216:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<Coord, rclcpp::Node>::mapped_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Node\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kneighbors\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.274350] (cg_solver) StderrLine: {'line': b'  216 |     auto & na = graph_[a].\x1b[01;31m\x1b[Kneighbors\x1b[m\x1b[K;\n'}
+[2.274453] (cg_solver) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.274568] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:217:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<Coord, rclcpp::Node>::mapped_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Node\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kneighbors\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.274678] (cg_solver) StderrLine: {'line': b'  217 |     auto & nb = graph_[b].\x1b[01;31m\x1b[Kneighbors\x1b[m\x1b[K;\n'}
+[2.274780] (cg_solver) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.290680] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MapearNode::\x1b[01;32m\x1b[Krun_dijkstra_and_compare\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.290991] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:421:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_map<Coord, Node>&\x1b[m\x1b[K\xe2\x80\x99 from expression of type \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<Coord, rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.291163] (cg_solver) StderrLine: {'line': b'  421 |     auto shortest = dijkstra(\x1b[01;31m\x1b[Kgraph_\x1b[m\x1b[K, start_, goal_);\n'}
+[2.291280] (cg_solver) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.291388] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:69:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin passing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Coord>\x1b[01;32m\x1b[K dijkstra\x1b[m\x1b[K(const std::unordered_map<Coord, Node>&, Coord, Coord)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.291498] (cg_solver) StderrLine: {'line': b'   69 |   \x1b[01;36m\x1b[Kconst std::unordered_map<Coord, Node> & graph\x1b[m\x1b[K,\n'}
+[2.291611] (cg_solver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.308689] (-) TimerEvent: {}
+[2.409013] (-) TimerEvent: {}
+[2.509398] (-) TimerEvent: {}
+[2.609701] (-) TimerEvent: {}
+[2.710025] (-) TimerEvent: {}
+[2.810397] (-) TimerEvent: {}
+[2.910830] (-) TimerEvent: {}
+[3.011175] (-) TimerEvent: {}
+[3.111593] (-) TimerEvent: {}
+[3.176508] (cg_solver) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[3.176914] (cg_solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:78\x1b[m\x1b[K,\n'}
+[3.177035] (cg_solver) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:2\x1b[m\x1b[K:\n'}
+[3.177145] (cg_solver) StderrLine: {'line': b'/usr/include/c++/13/tuple: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<_T1, _T2>::\x1b[01;32m\x1b[Kpair\x1b[m\x1b[K(std::tuple<_Args1 ...>&, std::tuple<_Args2 ...>&, std::_Index_tuple<_Indexes1 ...>, std::_Index_tuple<_Indexes2 ...>) \x1b[35m\x1b[K[with _Args1 = {const Coord&}; long unsigned int ..._Indexes1 = {0}; _Args2 = {}; long unsigned int ..._Indexes2 = {}; _T1 = const Coord; _T2 = rclcpp::Node]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.177284] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:2257:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<_T1, _T2>::\x1b[01;32m\x1b[Kpair\x1b[m\x1b[K(std::piecewise_construct_t, std::tuple<_Args1 ...>, std::tuple<_Args2 ...>) \x1b[35m\x1b[K[with _Args1 = {const Coord&}; _Args2 = {}; _T1 = const Coord; _T2 = rclcpp::Node]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177409] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/new_allocator.h:191:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::__new_allocator<_Tp>::\x1b[01;32m\x1b[Kconstruct\x1b[m\x1b[K(_Up*, _Args&& ...) \x1b[35m\x1b[K[with _Up = std::pair<const Coord, rclcpp::Node>; _Args = {const std::piecewise_construct_t&, std::tuple<const Coord&>, std::tuple<>}; _Tp = std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177522] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/alloc_traits.h:538:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::\x1b[01;32m\x1b[Kconstruct\x1b[m\x1b[K(allocator_type&, _Up*, _Args&& ...) \x1b[35m\x1b[K[with _Up = std::pair<const Coord, rclcpp::Node>; _Args = {const std::piecewise_construct_t&, std::tuple<const Coord&>, std::tuple<>}; _Tp = std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false>; allocator_type = std::allocator<std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177647] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/hashtable_policy.h:1995:36:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__detail::_Hashtable_alloc<_NodeAlloc>::__node_type* std::__detail::_Hashtable_alloc<_NodeAlloc>::\x1b[01;32m\x1b[K_M_allocate_node\x1b[m\x1b[K(_Args&& ...) \x1b[35m\x1b[K[with _Args = {const std::piecewise_construct_t&, std::tuple<const Coord&>, std::tuple<>}; _NodeAlloc = std::allocator<std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false> >; __node_ptr = std::allocator<std::__detail::_Hash_node<std::pair<const Coord, rclcpp::Node>, false> >::value_type*]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177777] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/hashtable.h:307:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits>::_Scoped_node::\x1b[01;32m\x1b[K_Scoped_node\x1b[m\x1b[K(std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits>::__hashtable_alloc*, _Args&& ...) \x1b[35m\x1b[K[with _Args = {const std::piecewise_construct_t&, std::tuple<const Coord&>, std::tuple<>}; _Key = Coord; _Value = std::pair<const Coord, rclcpp::Node>; _Alloc = std::allocator<std::pair<const Coord, rclcpp::Node> >; _ExtractKey = std::__detail::_Select1st; _Equal = std::equal_to<Coord>; _Hash = std::hash<Coord>; _RangeHash = std::__detail::_Mod_range_hashing; _Unused = std::__detail::_Default_ranged_hash; _RehashPolicy = std::__detail::_Prime_rehash_policy; _Traits = std::__detail::_Hashtable_traits<false, false, true>; std::_Hashtable<_Key, _Value, _Alloc, _ExtractKey, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits>::__hashtable_alloc = std::_Hashtable<Coord, std::pair<const Coord, rclcpp::Node>, std::allocator<std::pair<const Coord, rclcpp::Node> >, std::__detail::_Select1st, std::equal_to<Coord>, std::hash<Coord>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::__hashtable_alloc]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.177909] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/hashtable_policy.h:818:42:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__detail::_Map_base<_Key, std::pair<const _Key, _Val>, _Alloc, std::__detail::_Select1st, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits, true>::mapped_type& std::__detail::_Map_base<_Key, std::pair<const _Key, _Val>, _Alloc, std::__detail::_Select1st, _Equal, _Hash, _RangeHash, _Unused, _RehashPolicy, _Traits, true>::\x1b[01;32m\x1b[Koperator[]\x1b[m\x1b[K(const key_type&) \x1b[35m\x1b[K[with _Key = Coord; _Val = rclcpp::Node; _Alloc = std::allocator<std::pair<const Coord, rclcpp::Node> >; _Equal = std::equal_to<Coord>; _Hash = std::hash<Coord>; _RangeHash = std::__detail::_Mod_range_hashing; _Unused = std::__detail::_Default_ranged_hash; _RehashPolicy = std::__detail::_Prime_rehash_policy; _Traits = std::__detail::_Hashtable_traits<false, false, true>; mapped_type = rclcpp::Node; key_type = Coord]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.178029] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:987:20:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::mapped_type& std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::\x1b[01;32m\x1b[Koperator[]\x1b[m\x1b[K(const key_type&) \x1b[35m\x1b[K[with _Key = Coord; _Tp = rclcpp::Node; _Hash = std::hash<Coord>; _Pred = std::equal_to<Coord>; _Alloc = std::allocator<std::pair<const Coord, rclcpp::Node> >; mapped_type = rclcpp::Node; key_type = Coord]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.178147] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:18:\x1b[m\x1b[K   required from here\n'}
+[3.178251] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/tuple:2268:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.178357] (cg_solver) StderrLine: {'line': b' 2268 |         \x1b[01;31m\x1b[Ksecond(std::forward<_Args2>(std::get<_Indexes2>(__tuple2))...)\x1b[m\x1b[K\n'}
+[3.178458] (cg_solver) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.178566] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const rclcpp::Node&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.178670] (cg_solver) StderrLine: {'line': b' 1629 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.178770] (cg_solver) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.178872] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.178972] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.179079] (cg_solver) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.179179] (cg_solver) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.179276] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[3.179371] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.179480] (cg_solver) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.179585] (cg_solver) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.179687] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.211668] (-) TimerEvent: {}
+[3.312005] (-) TimerEvent: {}
+[3.412488] (-) TimerEvent: {}
+[3.513132] (-) TimerEvent: {}
+[3.613572] (-) TimerEvent: {}
+[3.714169] (-) TimerEvent: {}
+[3.814592] (-) TimerEvent: {}
+[3.915071] (-) TimerEvent: {}
+[4.015481] (-) TimerEvent: {}
+[4.115830] (-) TimerEvent: {}
+[4.216170] (-) TimerEvent: {}
+[4.316474] (-) TimerEvent: {}
+[4.416804] (-) TimerEvent: {}
+[4.517172] (-) TimerEvent: {}
+[4.617572] (-) TimerEvent: {}
+[4.634378] (cg_solver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mapear.dir/build.make:76: CMakeFiles/mapear.dir/src/mapear.cpp.o] Error 1\n'}
+[4.634698] (cg_solver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mapear.dir/all] Error 2\n'}
+[4.634991] (cg_solver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.637946] (cg_solver) CommandEnded: {'returncode': 2}
+[4.648752] (cg_solver) JobEnded: {'identifier': 'cg_solver', 'rc': 2}
+[4.659902] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[1.746s] Invoking command in '/home/inteli/Documentos/culling_games/src/cg': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cg build --build-base /home/inteli/Documentos/culling_games/build/cg/build install --record /home/inteli/Documentos/culling_games/build/cg/install.log --single-version-externally-managed install_data
+[2.146s] running egg_info
+[2.173s] writing ../../build/cg/cg.egg-info/PKG-INFO
+[2.173s] writing dependency_links to ../../build/cg/cg.egg-info/dependency_links.txt
+[2.173s] writing entry points to ../../build/cg/cg.egg-info/entry_points.txt
+[2.173s] writing requirements to ../../build/cg/cg.egg-info/requires.txt
+[2.173s] writing top-level names to ../../build/cg/cg.egg-info/top_level.txt
+[2.211s] reading manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+[2.211s] adding license file 'LICENSE'
+[2.212s] writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+[2.212s] running build
+[2.213s] running build_py
+[2.214s] running install
+[2.221s] running install_lib
+[2.241s] running install_data
+[2.242s] running install_egg_info
+[2.261s] removing '/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg-0.0.0-py3.12.egg-info' (and everything under it)
+[2.262s] Copying ../../build/cg/cg.egg-info to /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg-0.0.0-py3.12.egg-info
+[2.263s] running install_scripts
+[2.406s] Installing edit script to /home/inteli/Documentos/culling_games/install/cg/lib/cg
+[2.406s] Installing maze script to /home/inteli/Documentos/culling_games/install/cg/lib/cg
+[2.406s] Installing test script to /home/inteli/Documentos/culling_games/install/cg/lib/cg
+[2.407s] writing list of installed files to '/home/inteli/Documentos/culling_games/build/cg/install.log'
+[2.508s] Invoked command in '/home/inteli/Documentos/culling_games/src/cg' returned '0': AMENT_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/inteli/Documentos/culling_games/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cg build --build-base /home/inteli/Documentos/culling_games/build/cg/build install --record /home/inteli/Documentos/culling_games/build/cg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cg
+Version: 0.0.0
+Summary: Culling Games
+Maintainer: rnicola
+Maintainer-email: rodrigo.nicola0@gmail.com
+License: MIT
+Provides-Extra: test
+License-File: LICENSE

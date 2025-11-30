@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cg-teleop
+Version: 0.0.0
+Summary: Teleop for Culling Games
+Maintainer: rnicola
+Maintainer-email: rodrigo.nicola0@gmail.com
+License: MIT
+Provides-Extra: test

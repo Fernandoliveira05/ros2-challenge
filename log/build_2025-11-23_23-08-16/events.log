@@ -1,0 +1,488 @@
+[0.000000] (-) TimerEvent: {}
+[0.001194] (cg_interfaces) JobQueued: {'identifier': 'cg_interfaces', 'dependencies': OrderedDict()}
+[0.001330] (cg) JobQueued: {'identifier': 'cg', 'dependencies': OrderedDict({'cg_interfaces': '/home/inteli/Documentos/culling_games/install/cg_interfaces'})}
+[0.001388] (cg_solver) JobQueued: {'identifier': 'cg_solver', 'dependencies': OrderedDict({'cg_interfaces': '/home/inteli/Documentos/culling_games/install/cg_interfaces'})}
+[0.001444] (cg_teleop) JobQueued: {'identifier': 'cg_teleop', 'dependencies': OrderedDict({'cg_interfaces': '/home/inteli/Documentos/culling_games/install/cg_interfaces'})}
+[0.001486] (cg_interfaces) JobStarted: {'identifier': 'cg_interfaces'}
+[0.011139] (cg_interfaces) JobProgress: {'identifier': 'cg_interfaces', 'progress': 'cmake'}
+[0.013264] (cg_interfaces) JobProgress: {'identifier': 'cg_interfaces', 'progress': 'build'}
+[0.013445] (cg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/inteli/Documentos/culling_games/build/cg_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/inteli/Documentos/culling_games/build/cg_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli/Documentos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/inteli:@/tmp/.ICE-unix/2616,unix/inteli:/tmp/.ICE-unix/2616', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ab4a35a0_a997_4532_8e75_3d6145d15747', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FOJNG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/Documentos/culling_games/build/cg_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099686] (-) TimerEvent: {}
+[0.102432] (cg_interfaces) StdoutLine: {'line': b'[  1%] Built target cg_interfaces__rosidl_generator_type_description\n'}
+[0.124556] (cg_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_cg_interfaces\n'}
+[0.150277] (cg_interfaces) StdoutLine: {'line': b'[  3%] Built target cg_interfaces__cpp\n'}
+[0.159144] (cg_interfaces) StdoutLine: {'line': b'[ 25%] Built target cg_interfaces__rosidl_generator_c\n'}
+[0.199908] (-) TimerEvent: {}
+[0.223465] (cg_interfaces) StdoutLine: {'line': b'[ 34%] Built target cg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.224207] (cg_interfaces) StdoutLine: {'line': b'[ 43%] Built target cg_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.225654] (cg_interfaces) StdoutLine: {'line': b'[ 60%] Built target cg_interfaces__rosidl_typesupport_c\n'}
+[0.226216] (cg_interfaces) StdoutLine: {'line': b'[ 62%] Built target cg_interfaces__rosidl_typesupport_cpp\n'}
+[0.227484] (cg_interfaces) StdoutLine: {'line': b'[ 81%] Built target cg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.228151] (cg_interfaces) StdoutLine: {'line': b'[ 81%] Built target cg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.263793] (cg_interfaces) StdoutLine: {'line': b'[ 81%] Built target cg_interfaces\n'}
+[0.300045] (-) TimerEvent: {}
+[0.300325] (cg_interfaces) StdoutLine: {'line': b'[ 82%] Built target cg_interfaces__py\n'}
+[0.340464] (cg_interfaces) StdoutLine: {'line': b'[ 90%] Built target cg_interfaces__rosidl_generator_py\n'}
+[0.378397] (cg_interfaces) StdoutLine: {'line': b'[ 96%] Built target cg_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[0.378782] (cg_interfaces) StdoutLine: {'line': b'[ 96%] Built target cg_interfaces_s__rosidl_typesupport_c\n'}
+[0.379408] (cg_interfaces) StdoutLine: {'line': b'[100%] Built target cg_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[0.400207] (-) TimerEvent: {}
+[0.500707] (-) TimerEvent: {}
+[0.526003] (cg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.554330] (cg_interfaces) StdoutLine: {'line': b'writing cg_interfaces.egg-info/PKG-INFO\n'}
+[0.554843] (cg_interfaces) StdoutLine: {'line': b'writing dependency_links to cg_interfaces.egg-info/dependency_links.txt\n'}
+[0.555124] (cg_interfaces) StdoutLine: {'line': b'writing top-level names to cg_interfaces.egg-info/top_level.txt\n'}
+[0.600826] (-) TimerEvent: {}
+[0.633277] (cg_interfaces) StdoutLine: {'line': b"reading manifest file 'cg_interfaces.egg-info/SOURCES.txt'\n"}
+[0.633919] (cg_interfaces) StdoutLine: {'line': b"writing manifest file 'cg_interfaces.egg-info/SOURCES.txt'\n"}
+[0.668987] (cg_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_cg_interfaces_egg\n'}
+[0.685052] (cg_interfaces) CommandEnded: {'returncode': 0}
+[0.686394] (cg_interfaces) JobProgress: {'identifier': 'cg_interfaces', 'progress': 'install'}
+[0.700996] (-) TimerEvent: {}
+[0.702563] (cg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/inteli/Documentos/culling_games/build/cg_interfaces'], 'cwd': '/home/inteli/Documentos/culling_games/build/cg_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli/Documentos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/inteli:@/tmp/.ICE-unix/2616,unix/inteli:/tmp/.ICE-unix/2616', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ab4a35a0_a997_4532_8e75_3d6145d15747', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FOJNG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/Documentos/culling_games/build/cg_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.716376] (cg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.717132] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/ament_index/resource_index/rosidl_interfaces/cg_interfaces\n'}
+[0.717361] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.json\n'}
+[0.717752] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/GetMap.json\n'}
+[0.718151] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/msg/RobotSensors.json\n'}
+[0.718357] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/Reset.json\n'}
+[0.718632] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.719045] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.719423] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.h\n'}
+[0.719663] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.h\n'}
+[0.720063] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/reset.h\n'}
+[0.720262] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.720488] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.h\n'}
+[0.720720] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.c\n'}
+[0.720983] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.c\n'}
+[0.721369] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__functions.c\n'}
+[0.721591] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__description.c\n'}
+[0.721765] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__description.c\n'}
+[0.721962] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.h\n'}
+[0.722151] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.c\n'}
+[0.722307] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.h\n'}
+[0.722479] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__struct.h\n'}
+[0.722646] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.c\n'}
+[0.722841] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.h\n'}
+[0.723030] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.c\n'}
+[0.723213] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__functions.h\n'}
+[0.723386] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.h\n'}
+[0.723562] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.h\n'}
+[0.723734] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.h\n'}
+[0.723907] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__description.c\n'}
+[0.724098] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.724273] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.724446] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.724600] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__description.c\n'}
+[0.724750] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__functions.h\n'}
+[0.724900] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__struct.h\n'}
+[0.725069] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__functions.c\n'}
+[0.725223] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.h\n'}
+[0.725379] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.c\n'}
+[0.725543] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/robot_sensors.h\n'}
+[0.725692] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/library_path.sh\n'}
+[0.725864] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/library_path.dsv\n'}
+[0.726033] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_c.so\n'}
+[0.726190] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.726339] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.726489] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.726636] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.726785] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_fastrtps_c.h\n'}
+[0.726933] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.727100] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.727252] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.727400] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.727579] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_fastrtps_c.h\n'}
+[0.727727] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.727881] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.728047] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.728205] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.728352] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.c\n'}
+[0.728501] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_c.h\n'}
+[0.728649] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.728809] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_introspection_c.h\n'}
+[0.728967] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.c\n'}
+[0.729128] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.c\n'}
+[0.729275] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.729421] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.729568] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_introspection_c.h\n'}
+[0.729715] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.c\n'}
+[0.729863] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.730026] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.730195] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_c.so\n'}
+[0.730345] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.730492] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.730638] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/reset.hpp\n'}
+[0.730785] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.hpp\n'}
+[0.730931] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.731096] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.hpp\n'}
+[0.731246] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__builder.hpp\n'}
+[0.731400] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__builder.hpp\n'}
+[0.731556] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.hpp\n'}
+[0.731708] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__struct.hpp\n'}
+[0.731854] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.hpp\n'}
+[0.732046] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__builder.hpp\n'}
+[0.732193] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__traits.hpp\n'}
+[0.732339] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__traits.hpp\n'}
+[0.732487] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__traits.hpp\n'}
+[0.732637] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.hpp\n'}
+[0.732794] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.hpp\n'}
+[0.732944] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.hpp\n'}
+[0.733100] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.733246] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.733394] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/robot_sensors.hpp\n'}
+[0.733540] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.733687] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__traits.hpp\n'}
+[0.733836] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__builder.hpp\n'}
+[0.734005] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.hpp\n'}
+[0.734164] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__struct.hpp\n'}
+[0.734320] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.734488] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.734640] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.734787] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.734935] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/dds_fastrtps\n'}
+[0.735105] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.735258] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.735416] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.735566] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.735723] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/dds_fastrtps\n'}
+[0.735870] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.736030] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.736178] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.736325] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.736472] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.736647] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.736801] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.736964] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.cpp\n'}
+[0.737120] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.737276] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.cpp\n'}
+[0.737423] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.737582] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.cpp\n'}
+[0.737732] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.737884] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.738046] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.738197] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.cpp\n'}
+[0.738353] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.738511] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.738671] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.sh\n'}
+[0.738820] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.dsv\n'}
+[0.738990] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info\n'}
+[0.739139] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[0.739284] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[0.739431] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[0.739577] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[0.739733] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces\n'}
+[0.739883] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.so\n'}
+[0.740045] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.740192] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/__init__.py\n'}
+[0.740338] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[0.740483] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.740629] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.740777] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.740948] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv\n'}
+[0.741110] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_get_map.py\n'}
+[0.741259] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/__init__.py\n'}
+[0.741407] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_move_cmd.py\n'}
+[0.741555] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_get_map_s.c\n'}
+[0.741710] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_reset_s.c\n'}
+[0.741857] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_reset.py\n'}
+[0.742017] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv/_move_cmd_s.c\n'}
+[0.742173] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg\n'}
+[0.742318] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg/__init__.py\n'}
+[0.742467] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg/_robot_sensors_s.c\n'}
+[0.742613] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg/_robot_sensors.py\n'}
+[0.763962] (cg_interfaces) StdoutLine: {'line': b"Listing '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces'...\n"}
+[0.764349] (cg_interfaces) StdoutLine: {'line': b"Listing '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/msg'...\n"}
+[0.764555] (cg_interfaces) StdoutLine: {'line': b"Listing '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/srv'...\n"}
+[0.770704] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.771222] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[0.771765] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.so\n'}
+[0.772090] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_py.so\n'}
+[0.772362] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.idl\n'}
+[0.772627] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/GetMap.idl\n'}
+[0.772940] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/msg/RobotSensors.idl\n'}
+[0.773307] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/Reset.idl\n'}
+[0.773551] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.srv\n'}
+[0.773734] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/GetMap.srv\n'}
+[0.773919] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/msg/RobotSensors.msg\n'}
+[0.774121] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/srv/Reset.srv\n'}
+[0.774340] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/ament_index/resource_index/package_run_dependencies/cg_interfaces\n'}
+[0.774523] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/ament_index/resource_index/parent_prefix_path/cg_interfaces\n'}
+[0.774703] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.sh\n'}
+[0.774890] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.775116] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/path.sh\n'}
+[0.775320] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/environment/path.dsv\n'}
+[0.775645] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/local_setup.bash\n'}
+[0.776173] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/local_setup.sh\n'}
+[0.776655] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/local_setup.zsh\n'}
+[0.777477] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/local_setup.dsv\n'}
+[0.777905] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/package.dsv\n'}
+[0.778291] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/ament_index/resource_index/packages/cg_interfaces\n'}
+[0.778607] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.779185] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.779385] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.779936] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.780320] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.780625] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.780803] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.780970] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.781427] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.781710] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.782544] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.782981] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.783208] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.783499] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.783972] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.784397] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.785267] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.785675] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.785936] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.786191] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.786453] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.786767] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.786980] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.787190] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.787396] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig.cmake\n'}
+[0.787607] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig-version.cmake\n'}
+[0.787786] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/package.xml\n'}
+[0.788000] (cg_interfaces) CommandEnded: {'returncode': 0}
+[0.801407] (-) TimerEvent: {}
+[0.807580] (cg_interfaces) JobEnded: {'identifier': 'cg_interfaces', 'rc': 0}
+[0.808357] (cg) JobStarted: {'identifier': 'cg'}
+[0.815616] (cg_solver) JobStarted: {'identifier': 'cg_solver'}
+[0.821759] (cg_teleop) JobStarted: {'identifier': 'cg_teleop'}
+[0.901572] (-) TimerEvent: {}
+[1.003943] (-) TimerEvent: {}
+[1.104523] (-) TimerEvent: {}
+[1.113721] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'cmake'}
+[1.114790] (cg_solver) Command: {'cmd': ['/usr/bin/cmake', '/home/inteli/Documentos/culling_games/src/cg_solver', '-DCMAKE_INSTALL_PREFIX=/home/inteli/Documentos/culling_games/install/cg_solver'], 'cwd': '/home/inteli/Documentos/culling_games/build/cg_solver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli/Documentos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/inteli:@/tmp/.ICE-unix/2616,unix/inteli:/tmp/.ICE-unix/2616', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ab4a35a0_a997_4532_8e75_3d6145d15747', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FOJNG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/Documentos/culling_games/build/cg_solver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.140972] (cg_solver) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.204667] (-) TimerEvent: {}
+[1.305068] (-) TimerEvent: {}
+[1.405472] (-) TimerEvent: {}
+[1.505926] (-) TimerEvent: {}
+[1.561893] (cg_solver) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.606063] (-) TimerEvent: {}
+[1.621970] (cg_solver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.642765] (cg_solver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.668462] (cg_solver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.698690] (cg_solver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.706186] (-) TimerEvent: {}
+[1.806589] (-) TimerEvent: {}
+[1.855538] (cg_solver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.858326] (cg_solver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.906748] (-) TimerEvent: {}
+[1.995011] (cg_solver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.006938] (-) TimerEvent: {}
+[2.017493] (cg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cg', 'build', '--build-base', '/home/inteli/Documentos/culling_games/build/cg/build', 'install', '--record', '/home/inteli/Documentos/culling_games/build/cg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/inteli/Documentos/culling_games/src/cg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli/Documentos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/inteli:@/tmp/.ICE-unix/2616,unix/inteli:/tmp/.ICE-unix/2616', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ab4a35a0_a997_4532_8e75_3d6145d15747', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FOJNG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/Documentos/culling_games/build/cg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/inteli/Documentos/culling_games/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.107071] (-) TimerEvent: {}
+[2.136679] (cg_solver) StdoutLine: {'line': b'-- Found cg_interfaces: 0.0.0 (/home/inteli/Documentos/culling_games/install/cg_interfaces/share/cg_interfaces/cmake)\n'}
+[2.158550] (cg_solver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.207195] (-) TimerEvent: {}
+[2.301275] (cg) StdoutLine: {'line': b'running egg_info\n'}
+[2.307295] (-) TimerEvent: {}
+[2.309681] (cg_solver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.310063] (cg_solver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.310267] (cg_solver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.310563] (cg_solver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.311202] (cg_solver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.311485] (cg_solver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.311729] (cg_solver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.312562] (cg_solver) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[2.319603] (cg) StdoutLine: {'line': b'writing ../../build/cg/cg.egg-info/PKG-INFO\n'}
+[2.319975] (cg) StdoutLine: {'line': b'writing dependency_links to ../../build/cg/cg.egg-info/dependency_links.txt\n'}
+[2.320328] (cg) StdoutLine: {'line': b'writing entry points to ../../build/cg/cg.egg-info/entry_points.txt\n'}
+[2.320585] (cg) StdoutLine: {'line': b'writing requirements to ../../build/cg/cg.egg-info/requires.txt\n'}
+[2.320746] (cg) StdoutLine: {'line': b'writing top-level names to ../../build/cg/cg.egg-info/top_level.txt\n'}
+[2.326100] (cg_solver) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.333199] (cg_solver) StdoutLine: {'line': b'-- Build files have been written to: /home/inteli/Documentos/culling_games/build/cg_solver\n'}
+[2.347214] (cg_solver) CommandEnded: {'returncode': 0}
+[2.348190] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'build'}
+[2.348971] (cg_solver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/inteli/Documentos/culling_games/build/cg_solver', '--', '-j12', '-l12'], 'cwd': '/home/inteli/Documentos/culling_games/build/cg_solver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli/Documentos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/inteli:@/tmp/.ICE-unix/2616,unix/inteli:/tmp/.ICE-unix/2616', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ab4a35a0_a997_4532_8e75_3d6145d15747', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FOJNG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/Documentos/culling_games/build/cg_solver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.358230] (cg) StdoutLine: {'line': b"reading manifest file '../../build/cg/cg.egg-info/SOURCES.txt'\n"}
+[2.358683] (cg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.359591] (cg) StdoutLine: {'line': b"writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'\n"}
+[2.359924] (cg) StdoutLine: {'line': b'running build\n'}
+[2.360128] (cg) StdoutLine: {'line': b'running build_py\n'}
+[2.360665] (cg) StdoutLine: {'line': b'running install\n'}
+[2.368271] (cg) StdoutLine: {'line': b'running install_lib\n'}
+[2.388047] (cg) StdoutLine: {'line': b'running install_data\n'}
+[2.388662] (cg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.407479] (-) TimerEvent: {}
+[2.408927] (cg) StdoutLine: {'line': b"removing '/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.409346] (cg) StdoutLine: {'line': b'Copying ../../build/cg/cg.egg-info to /home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages/cg-0.0.0-py3.12.egg-info\n'}
+[2.411269] (cg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.460280] (cg_solver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/maze_solver.dir/src/solver.cpp.o\x1b[0m\n'}
+[2.507653] (-) TimerEvent: {}
+[2.546450] (cg) StdoutLine: {'line': b'Installing edit script to /home/inteli/Documentos/culling_games/install/cg/lib/cg\n'}
+[2.546908] (cg) StdoutLine: {'line': b'Installing maze script to /home/inteli/Documentos/culling_games/install/cg/lib/cg\n'}
+[2.549815] (cg) StdoutLine: {'line': b'Installing test script to /home/inteli/Documentos/culling_games/install/cg/lib/cg\n'}
+[2.551202] (cg) StdoutLine: {'line': b"writing list of installed files to '/home/inteli/Documentos/culling_games/build/cg/install.log'\n"}
+[2.574310] (cg_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cg_teleop', 'build', '--build-base', '/home/inteli/Documentos/culling_games/build/cg_teleop/build', 'install', '--record', '/home/inteli/Documentos/culling_games/build/cg_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/inteli/Documentos/culling_games/src/cg_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli/Documentos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/inteli:@/tmp/.ICE-unix/2616,unix/inteli:/tmp/.ICE-unix/2616', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ab4a35a0_a997_4532_8e75_3d6145d15747', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FOJNG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/Documentos/culling_games/build/cg_teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/inteli/Documentos/culling_games/build/cg_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inteli/Documentos/culling_games/install/cg_teleop/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.599902] (cg) CommandEnded: {'returncode': 0}
+[2.607779] (-) TimerEvent: {}
+[2.609978] (cg) JobEnded: {'identifier': 'cg', 'rc': 0}
+[2.708038] (-) TimerEvent: {}
+[2.808488] (-) TimerEvent: {}
+[2.908986] (-) TimerEvent: {}
+[3.009474] (-) TimerEvent: {}
+[3.109942] (-) TimerEvent: {}
+[3.124308] (cg_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[3.163671] (cg_teleop) StdoutLine: {'line': b'writing ../../build/cg_teleop/cg_teleop.egg-info/PKG-INFO\n'}
+[3.164225] (cg_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/cg_teleop/cg_teleop.egg-info/dependency_links.txt\n'}
+[3.164664] (cg_teleop) StdoutLine: {'line': b'writing entry points to ../../build/cg_teleop/cg_teleop.egg-info/entry_points.txt\n'}
+[3.165008] (cg_teleop) StdoutLine: {'line': b'writing requirements to ../../build/cg_teleop/cg_teleop.egg-info/requires.txt\n'}
+[3.165254] (cg_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/cg_teleop/cg_teleop.egg-info/top_level.txt\n'}
+[3.210040] (-) TimerEvent: {}
+[3.244110] (cg_teleop) StdoutLine: {'line': b"reading manifest file '../../build/cg_teleop/cg_teleop.egg-info/SOURCES.txt'\n"}
+[3.245682] (cg_teleop) StdoutLine: {'line': b"writing manifest file '../../build/cg_teleop/cg_teleop.egg-info/SOURCES.txt'\n"}
+[3.246121] (cg_teleop) StdoutLine: {'line': b'running build\n'}
+[3.246357] (cg_teleop) StdoutLine: {'line': b'running build_py\n'}
+[3.246688] (cg_teleop) StdoutLine: {'line': b'running install\n'}
+[3.258553] (cg_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[3.300823] (cg_teleop) StdoutLine: {'line': b'running install_data\n'}
+[3.301373] (cg_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.310170] (-) TimerEvent: {}
+[3.343757] (cg_teleop) StdoutLine: {'line': b"removing '/home/inteli/Documentos/culling_games/install/cg_teleop/lib/python3.12/site-packages/cg_teleop-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.344379] (cg_teleop) StdoutLine: {'line': b'Copying ../../build/cg_teleop/cg_teleop.egg-info to /home/inteli/Documentos/culling_games/install/cg_teleop/lib/python3.12/site-packages/cg_teleop-0.0.0-py3.12.egg-info\n'}
+[3.347232] (cg_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[3.410356] (-) TimerEvent: {}
+[3.510832] (-) TimerEvent: {}
+[3.611295] (-) TimerEvent: {}
+[3.617324] (cg_teleop) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/inteli/Documentos/culling_games/install/cg_teleop/lib/cg_teleop\n'}
+[3.618102] (cg_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/inteli/Documentos/culling_games/build/cg_teleop/install.log'\n"}
+[3.678608] (cg_teleop) CommandEnded: {'returncode': 0}
+[3.689610] (cg_teleop) JobEnded: {'identifier': 'cg_teleop', 'rc': 0}
+[3.711440] (-) TimerEvent: {}
+[3.812018] (-) TimerEvent: {}
+[3.912532] (-) TimerEvent: {}
+[4.013078] (-) TimerEvent: {}
+[4.113612] (-) TimerEvent: {}
+[4.214156] (-) TimerEvent: {}
+[4.314700] (-) TimerEvent: {}
+[4.415218] (-) TimerEvent: {}
+[4.515918] (-) TimerEvent: {}
+[4.616370] (-) TimerEvent: {}
+[4.716821] (-) TimerEvent: {}
+[4.817306] (-) TimerEvent: {}
+[4.917826] (-) TimerEvent: {}
+[5.018260] (-) TimerEvent: {}
+[5.118779] (-) TimerEvent: {}
+[5.219180] (-) TimerEvent: {}
+[5.319596] (-) TimerEvent: {}
+[5.420097] (-) TimerEvent: {}
+[5.520527] (-) TimerEvent: {}
+[5.621102] (-) TimerEvent: {}
+[5.721526] (-) TimerEvent: {}
+[5.821970] (-) TimerEvent: {}
+[5.922390] (-) TimerEvent: {}
+[6.022912] (-) TimerEvent: {}
+[6.123396] (-) TimerEvent: {}
+[6.223917] (-) TimerEvent: {}
+[6.324420] (-) TimerEvent: {}
+[6.424943] (-) TimerEvent: {}
+[6.525396] (-) TimerEvent: {}
+[6.625922] (-) TimerEvent: {}
+[6.726364] (-) TimerEvent: {}
+[6.826858] (-) TimerEvent: {}
+[6.927376] (-) TimerEvent: {}
+[7.027806] (-) TimerEvent: {}
+[7.128413] (-) TimerEvent: {}
+[7.229135] (-) TimerEvent: {}
+[7.329648] (-) TimerEvent: {}
+[7.430280] (-) TimerEvent: {}
+[7.530755] (-) TimerEvent: {}
+[7.631356] (-) TimerEvent: {}
+[7.732389] (-) TimerEvent: {}
+[7.833055] (-) TimerEvent: {}
+[7.933581] (-) TimerEvent: {}
+[8.034381] (-) TimerEvent: {}
+[8.134979] (-) TimerEvent: {}
+[8.235938] (-) TimerEvent: {}
+[8.336358] (-) TimerEvent: {}
+[8.436883] (-) TimerEvent: {}
+[8.537355] (-) TimerEvent: {}
+[8.637773] (-) TimerEvent: {}
+[8.738166] (-) TimerEvent: {}
+[8.838601] (-) TimerEvent: {}
+[8.939144] (-) TimerEvent: {}
+[9.039618] (-) TimerEvent: {}
+[9.140210] (-) TimerEvent: {}
+[9.240726] (-) TimerEvent: {}
+[9.341214] (-) TimerEvent: {}
+[9.441900] (-) TimerEvent: {}
+[9.542324] (-) TimerEvent: {}
+[9.642975] (-) TimerEvent: {}
+[9.743613] (-) TimerEvent: {}
+[9.844411] (-) TimerEvent: {}
+[9.945017] (-) TimerEvent: {}
+[10.045568] (-) TimerEvent: {}
+[10.146103] (-) TimerEvent: {}
+[10.246662] (-) TimerEvent: {}
+[10.347190] (-) TimerEvent: {}
+[10.447670] (-) TimerEvent: {}
+[10.548225] (-) TimerEvent: {}
+[10.649008] (-) TimerEvent: {}
+[10.750051] (-) TimerEvent: {}
+[10.850729] (-) TimerEvent: {}
+[10.951789] (-) TimerEvent: {}
+[11.052347] (-) TimerEvent: {}
+[11.316109] (-) TimerEvent: {}
+[11.416567] (-) TimerEvent: {}
+[11.517104] (-) TimerEvent: {}
+[11.617498] (-) TimerEvent: {}
+[11.717997] (-) TimerEvent: {}
+[11.818369] (-) TimerEvent: {}
+[11.918842] (-) TimerEvent: {}
+[12.019227] (-) TimerEvent: {}
+[12.119644] (-) TimerEvent: {}
+[12.220219] (-) TimerEvent: {}
+[12.320788] (-) TimerEvent: {}
+[12.421463] (-) TimerEvent: {}
+[12.522047] (-) TimerEvent: {}
+[12.622498] (-) TimerEvent: {}
+[12.723012] (-) TimerEvent: {}
+[12.823602] (-) TimerEvent: {}
+[12.924414] (-) TimerEvent: {}
+[13.025052] (-) TimerEvent: {}
+[13.125605] (-) TimerEvent: {}
+[13.226158] (-) TimerEvent: {}
+[13.326515] (-) TimerEvent: {}
+[13.427008] (-) TimerEvent: {}
+[13.527677] (-) TimerEvent: {}
+[13.628194] (-) TimerEvent: {}
+[13.728617] (-) TimerEvent: {}
+[13.829204] (-) TimerEvent: {}
+[13.929728] (-) TimerEvent: {}
+[14.025158] (cg_solver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable maze_solver\x1b[0m\n'}
+[14.029936] (-) TimerEvent: {}
+[14.130506] (-) TimerEvent: {}
+[14.231026] (-) TimerEvent: {}
+[14.331606] (-) TimerEvent: {}
+[14.432174] (-) TimerEvent: {}
+[14.440615] (cg_solver) StdoutLine: {'line': b'[100%] Built target maze_solver\n'}
+[14.532586] (-) TimerEvent: {}
+[14.559702] (cg_solver) CommandEnded: {'returncode': 0}
+[14.560876] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'install'}
+[14.561601] (cg_solver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/inteli/Documentos/culling_games/build/cg_solver'], 'cwd': '/home/inteli/Documentos/culling_games/build/cg_solver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli/Documentos', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2814', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/inteli:@/tmp/.ICE-unix/2616,unix/inteli:/tmp/.ICE-unix/2616', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ab4a35a0_a997_4532_8e75_3d6145d15747', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FOJNG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/Documentos/culling_games/build/cg_solver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.576004] (cg_solver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.576725] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/lib/cg_solver/maze_solver\n'}
+[14.578619] (cg_solver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/inteli/Documentos/culling_games/install/cg_solver/lib/cg_solver/maze_solver" to ""\n'}
+[14.578921] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/ament_index/resource_index/package_run_dependencies/cg_solver\n'}
+[14.579147] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/ament_index/resource_index/parent_prefix_path/cg_solver\n'}
+[14.579276] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/ament_prefix_path.sh\n'}
+[14.579435] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/ament_prefix_path.dsv\n'}
+[14.579626] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/path.sh\n'}
+[14.579752] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/environment/path.dsv\n'}
+[14.579866] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.bash\n'}
+[14.580044] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.sh\n'}
+[14.580232] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.zsh\n'}
+[14.580347] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/local_setup.dsv\n'}
+[14.580460] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/package.dsv\n'}
+[14.580610] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/ament_index/resource_index/packages/cg_solver\n'}
+[14.580790] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/cmake/cg_solverConfig.cmake\n'}
+[14.580899] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/cmake/cg_solverConfig-version.cmake\n'}
+[14.581023] (cg_solver) StdoutLine: {'line': b'-- Installing: /home/inteli/Documentos/culling_games/install/cg_solver/share/cg_solver/package.xml\n'}
+[14.583885] (cg_solver) CommandEnded: {'returncode': 0}
+[14.608990] (cg_solver) JobEnded: {'identifier': 'cg_solver', 'rc': 0}
+[14.613447] (-) EventReactorShutdown: {}

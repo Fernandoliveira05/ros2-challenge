@@ -1,0 +1,11 @@
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/uninstall.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/cg_solver_uninstall.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/maze_solver.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/mapear.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/test.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/edit_cache.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/rebuild_cache.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/list_install_components.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/install.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/install/local.dir
+/home/inteli/Documentos/culling_games/build/cg_solver/CMakeFiles/install/strip.dir

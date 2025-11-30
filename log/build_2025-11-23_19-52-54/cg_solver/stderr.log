@@ -1,0 +1,19 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/solver.cpp:[m[K In member function ‘[01m[Kvoid MazeSolverNode::[01;32m[Ksolve_once[m[K()[m[K’:
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/solver.cpp:62:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<cg_interfaces::srv::GetMap_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kwidth[m[K’
+   62 |     int width  = response->[01;31m[Kwidth[m[K;
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/solver.cpp:63:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<cg_interfaces::srv::GetMap_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheight[m[K’
+   63 |     int height = response->[01;31m[Kheight[m[K;
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/inteli/Documentos/culling_games/src/cg_solver/src/solver.cpp:64:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<cg_interfaces::srv::GetMap_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct cg_interfaces::srv::GetMap_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   64 |     const auto & flat = response->[01;31m[Kdata[m[K;  // por ex: std::vector<int8_t>
+      |                                   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/maze_solver.dir/build.make:76: CMakeFiles/maze_solver.dir/src/solver.cpp.o] Erro 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/maze_solver.dir/all] Erro 2
+gmake: *** [Makefile:146: all] Erro 2

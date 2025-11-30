@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000465] (-) JobUnselected: {'identifier': 'cg'}
+[0.000505] (-) JobUnselected: {'identifier': 'cg_interfaces'}
+[0.000527] (-) JobUnselected: {'identifier': 'cg_teleop'}
+[0.000545] (cg_solver) JobQueued: {'identifier': 'cg_solver', 'dependencies': OrderedDict({'cg_interfaces': '/home/inteli/Documentos/culling_games/install/cg_interfaces'})}
+[0.001115] (cg_solver) JobStarted: {'identifier': 'cg_solver'}
+[0.016900] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'cmake'}
+[0.018448] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'build'}
+[0.018531] (cg_solver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/inteli/Documentos/culling_games/build/cg_solver', '--', '-j12', '-l12'], 'cwd': '/home/inteli/Documentos/culling_games/build/cg_solver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'inteli', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/inteli', 'OLDPWD': '/home/inteli', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2845', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'inteli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'inteli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/inteli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/inteli:@/tmp/.ICE-unix/2645,unix/inteli:/tmp/.ICE-unix/2645', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6b48e545_ac84_4eee_9ddf_bd398401c749', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.04LEG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_teleop:/home/inteli/Documentos/culling_games/install/cg_solver:/home/inteli/Documentos/culling_games/install/cg:/home/inteli/Documentos/culling_games/install/cg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/inteli/Documentos/culling_games/build/cg_solver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg_teleop/lib/python3.12/site-packages:/home/inteli/Documentos/culling_games/install/cg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/inteli/Documentos/culling_games/install/cg_interfaces:/home/inteli/Documentos/culling_games/install/cg_teleop:/home/inteli/Documentos/culling_games/install/cg:/opt/ros/jazzy:/home/inteli/Documentos/culling_games/install/cg_solver:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099956] (-) TimerEvent: {}
+[0.102535] (cg_solver) StdoutLine: {'line': b'[ 50%] Built target maze_solver\n'}
+[0.107935] (cg_solver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mapear.dir/src/mapear.cpp.o\x1b[0m\n'}
+[0.200160] (-) TimerEvent: {}
+[0.300770] (-) TimerEvent: {}
+[0.401293] (-) TimerEvent: {}
+[0.501841] (-) TimerEvent: {}
+[0.602594] (-) TimerEvent: {}
+[0.703189] (-) TimerEvent: {}
+[0.803701] (-) TimerEvent: {}
+[0.904118] (-) TimerEvent: {}
+[1.004617] (-) TimerEvent: {}
+[1.105146] (-) TimerEvent: {}
+[1.205651] (-) TimerEvent: {}
+[1.306089] (-) TimerEvent: {}
+[1.406608] (-) TimerEvent: {}
+[1.507013] (-) TimerEvent: {}
+[1.607533] (-) TimerEvent: {}
+[1.707951] (-) TimerEvent: {}
+[1.808420] (-) TimerEvent: {}
+[1.908943] (-) TimerEvent: {}
+[2.009306] (-) TimerEvent: {}
+[2.109735] (-) TimerEvent: {}
+[2.210056] (-) TimerEvent: {}
+[2.310423] (-) TimerEvent: {}
+[2.410835] (-) TimerEvent: {}
+[2.511174] (-) TimerEvent: {}
+[2.611583] (-) TimerEvent: {}
+[2.647950] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRobot_sensors\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcg_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KRobotSensors\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.648821] (cg_solver) StderrLine: {'line': b'  158 |   rclcpp::Subscription<cg_interfaces::msg::\x1b[01;31m\x1b[KRobot_sensors\x1b[m\x1b[K>::SharedPtr sensor_sub_;\n'}
+[2.649031] (cg_solver) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.649216] (cg_solver) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[KRobotSensors\x1b[m\x1b[K\n'}
+[2.649398] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.649593] (cg_solver) StderrLine: {'line': b'  158 |   rclcpp::Subscription<cg_interfaces::msg::Robot_sensors\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr sensor_sub_;\n'}
+[2.649794] (cg_solver) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.649985] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[2.650186] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[2.650425] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[2.650621] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.651086] (cg_solver) StderrLine: {'line': b'  158 |   rclcpp::Subscription<cg_interfaces::msg::Robot_sensors>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K sensor_sub_;\n'}
+[2.651311] (cg_solver) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.651510] (cg_solver) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.651702] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:158:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_sub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.651905] (cg_solver) StderrLine: {'line': b'  158 |   rclcpp::Subscription<cg_interfaces::msg::Robot_sensors>::SharedPtr \x1b[01;31m\x1b[Ksensor_sub_\x1b[m\x1b[K;\n'}
+[2.652093] (cg_solver) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.686463] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMapearNode::\x1b[01;32m\x1b[KMapearNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.686833] (cg_solver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/inteli/Documentos/culling_games/src/cg_solver/src/mapear.cpp:140:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.687013] (cg_solver) StderrLine: {'line': b'  140 |     \x1b[01;31m\x1b[Ksensor_sub_\x1b[m\x1b[K = this->create_subscription<cg_interfaces::msg::RobotSensors>(\n'}
+[2.687174] (cg_solver) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.711790] (-) TimerEvent: {}
+[2.812189] (-) TimerEvent: {}
+[2.912671] (-) TimerEvent: {}
+[3.013127] (-) TimerEvent: {}
+[3.113528] (-) TimerEvent: {}
+[3.213933] (-) TimerEvent: {}
+[3.314308] (-) TimerEvent: {}
+[3.414827] (-) TimerEvent: {}
+[3.515239] (-) TimerEvent: {}
+[3.615755] (-) TimerEvent: {}
+[3.716216] (-) TimerEvent: {}
+[3.816812] (-) TimerEvent: {}
+[3.917492] (-) TimerEvent: {}
+[4.017988] (-) TimerEvent: {}
+[4.118392] (-) TimerEvent: {}
+[4.218798] (-) TimerEvent: {}
+[4.319186] (-) TimerEvent: {}
+[4.419793] (-) TimerEvent: {}
+[4.520336] (-) TimerEvent: {}
+[4.620903] (-) TimerEvent: {}
+[4.721398] (-) TimerEvent: {}
+[4.821863] (-) TimerEvent: {}
+[4.922309] (-) TimerEvent: {}
+[5.022778] (-) TimerEvent: {}
+[5.123496] (-) TimerEvent: {}
+[5.223988] (-) TimerEvent: {}
+[5.324387] (-) TimerEvent: {}
+[5.345692] (cg_solver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mapear.dir/build.make:76: CMakeFiles/mapear.dir/src/mapear.cpp.o] Error 1\n'}
+[5.346309] (cg_solver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/mapear.dir/all] Error 2\n'}
+[5.346660] (cg_solver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.350310] (cg_solver) CommandEnded: {'returncode': 2}
+[5.366915] (cg_solver) JobEnded: {'identifier': 'cg_solver', 'rc': 2}
+[5.377995] (-) EventReactorShutdown: {}
