@@ -1,5 +1,13 @@
 # PONDERADA SEMANA 06 - Navegação e mapeamento (PARCIALMENTE GERADO POR INTELIGÊNCIA ARTIFICIAL)
 
+## Assista ao vídeo:
+- A imagem abaixo te redireciona para o vídeo explicativo do projeto:
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=FdRqLgt-Rgo">
+    <img src="https://sharkpokerreviews.com.br/blog/wp-content/uploads/2020/07/como-jogar-blackjack-21.jpg" alt="Vídeo do Projeto ULA Completa">
+  </a>
+</div>
+
 ## O que são grafos?
 
 &nbsp;&nbsp;Ao longo deste módulo, nos aprofundamos em grafos e sua relevância para a computação moderna. Grafos são amplamente utilizados porque seus fundamentos matemáticos vêm sendo desenvolvidos e estudados há muitos anos, muito antes sequer de existirem computadores. </br>
